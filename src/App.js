@@ -168,6 +168,7 @@ function App() {
               {submissions.map((submission, index) => (
                 <div key={index} className="card">
                   <h3>{submission.name}</h3>
+                  <p><strong>ID:</strong> {submission.id}</p>
                   <p><strong>Email:</strong> {submission.email}</p>
                   <p><strong>Phone:</strong> {submission.phone}</p>
                 </div>
@@ -175,6 +176,7 @@ function App() {
             </div>
           )}
         </div>
+        
       </div>
       
       <footer>
